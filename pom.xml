@@ -40,8 +40,6 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <!--mapstruct-->
         <mapstruct.version>1.5.5.Final</mapstruct.version>
-        <!--kuca-->
-        <kuca.version>1.0.0-SNAPSHOT</kuca.version>
 
         <!-- Maven插件版本 -->
         <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
@@ -93,14 +91,6 @@
                 <artifactId>mapstruct-processor</artifactId>
                 <version>${mapstruct.version}</version>
                 <scope>provided</scope>
-            </dependency>
-            <!--kuca-dependencies-->
-            <dependency>
-                <groupId>cn.mimiknight.developer.kuca</groupId>
-                <artifactId>kuca-dependencies</artifactId>
-                <version>${kuca.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
