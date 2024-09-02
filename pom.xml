@@ -14,22 +14,6 @@
     <properties>
         <!--revision 项目版本号-->
         <revision>1.0.0-SNAPSHOT</revision>
-        <!--jdk最低版本-->
-        <jdk.min.version>1.8.0-202</jdk.min.version>
-        <!--jdk最高版本-->
-        <jdk.max.version>1.8.0-202</jdk.max.version>
-        <!--maven最低版本-->
-        <maven.min.version>3.9.0</maven.min.version>
-        <!--maven最高版本-->
-        <maven.max.version>3.9.6</maven.max.version>
-        <!--编译源码jdk版本-->
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <!--编译目标代码jdk版本-->
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <!--项目源码编码-->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!--项目输出编码-->
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!--spring-boot-->
         <spring-boot.version>2.7.18</spring-boot.version>
         <!--lombok-->
