@@ -90,6 +90,8 @@
                 <groupId>cn.mimiknight.kuca</groupId>
                 <artifactId>kuca-dependencies</artifactId>
                 <version>${kuca.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
