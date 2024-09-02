@@ -12,6 +12,8 @@
     <description>mmk-developer-bom</description>
 
     <properties>
+        <!--revision 项目版本号-->
+        <revision>1.0.0-SNAPSHOT</revision>
         <!--jdk最低版本-->
         <jdk.min.version>1.8.0-202</jdk.min.version>
         <!--jdk最高版本-->
@@ -28,8 +30,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--项目输出编码-->
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <!--revision 项目版本号-->
-        <revision>1.0.0-SNAPSHOT</revision>
         <!--spring-boot-->
         <spring-boot.version>2.7.18</spring-boot.version>
         <!--lombok-->
@@ -48,6 +48,8 @@
         <mariadb-java-client.version>3.4.1</mariadb-java-client.version>
         <!--redisson-spring-boot-starter-->
         <redisson-spring-boot-starter.version>3.18.0</redisson-spring-boot-starter.version>
+        <!--springdoc-openapi-->
+        <springdoc-openapi.version>2.3.0</springdoc-openapi.version>
 
         <!-- Maven插件版本 -->
         <!--versions-maven-plugin-->
@@ -153,6 +155,19 @@
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson-spring-boot-starter</artifactId>
                 <version>${redisson-spring-boot-starter.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui -->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                <version>${springdoc-openapi.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-api -->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+                <version>${springdoc-openapi.version}</version>
+                <scope>test</scope>
             </dependency>
 
         </dependencies>
