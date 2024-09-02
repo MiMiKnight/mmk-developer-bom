@@ -96,7 +96,7 @@
             </dependency>
             <!--kuca-dependencies-->
             <dependency>
-                <groupId>cn.mimiknight.kuca</groupId>
+                <groupId>cn.mimiknight.developer.kuca</groupId>
                 <artifactId>kuca-dependencies</artifactId>
                 <version>${kuca.version}</version>
                 <type>pom</type>
