@@ -1,4 +1,4 @@
-kuca deploy
+jar deploy
 ========
 
 ---
@@ -10,11 +10,11 @@ mvn versions:set "-DnewVersion=1.0.0-SNAPSHOT"
 ```
 - **部署至本地仓库**
 ```shell
-mvn clean install
+mvn clean compile install
 ```
 - **部署至远程仓库**
 ```shell
-mvn clean deploy
+mvn clean compile deploy
 ```
 - **撤回版本修改**
 ```shell
