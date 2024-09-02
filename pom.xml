@@ -40,6 +40,14 @@
         <commons-collections4.version>4.4</commons-collections4.version>
         <!--mapstruct-->
         <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <!--mybatis-spring-boot-starter-->
+        <mybatis-spring.version>2.3.2</mybatis-spring.version>
+        <!--mybatis-plus-boot-starter-->
+        <mybatis-plus.version>3.5.7</mybatis-plus.version>
+        <!--mariadb-java-client-->
+        <mariadb-java-client.version>3.4.1</mariadb-java-client.version>
+        <!--redisson-spring-boot-starter-->
+        <redisson-spring-boot-starter.version>3.18.0</redisson-spring-boot-starter.version>
 
         <!-- Maven插件版本 -->
         <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
@@ -92,6 +100,38 @@
                 <version>${mapstruct.version}</version>
                 <scope>provided</scope>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
+            <dependency>
+                <groupId>org.mariadb.jdbc</groupId>
+                <artifactId>mariadb-java-client</artifactId>
+                <version>${mariadb-java-client.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.redisson/redisson-spring-boot-starter -->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson-spring-boot-starter.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
