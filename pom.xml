@@ -50,11 +50,34 @@
         <redisson-spring-boot-starter.version>3.18.0</redisson-spring-boot-starter.version>
 
         <!-- Maven插件版本 -->
+        <!--versions-maven-plugin-->
         <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
+        <!--duplicate-finder-maven-plugin-->
         <duplicate-finder-maven-plugin.version>1.5.1</duplicate-finder-maven-plugin.version>
-        <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
-        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+        <!--flatten-maven-plugin-->
+        <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
+        <!--maven-compiler-plugin-->
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+        <!--maven-jar-plugin-->
+        <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+        <!--maven-source-plugin-->
+        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+        <!--maven-javadoc-plugin.version-->
+        <maven-javadoc-plugin.version>3.6.2</maven-javadoc-plugin.version>
+        <!--maven-resources-plugin-->
+        <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+        <!--maven-surefire-plugin-->
+        <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
+        <!--maven-enforcer-plugin-->
+        <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
+        <!--maven-release-plugin-->
+        <maven-release-plugin.version>3.0.1</maven-release-plugin.version>
+        <!--maven-assembly-plugin-->
+        <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
+        <!--maven-checkstyle-plugin-->
+        <maven-checkstyle-plugin.version>3.3.1</maven-checkstyle-plugin.version>
+        <!--maven-clean-plugin-->
+        <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
     </properties>
 
     <!--依赖管理-->
