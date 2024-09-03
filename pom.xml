@@ -6,14 +6,12 @@
 
     <groupId>cn.mimiknight.developer</groupId>
     <artifactId>mmk-developer-bom</artifactId>
-    <version>${revision}</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>mmk-developer-bom</name>
     <description>mmk-developer-bom</description>
 
     <properties>
-        <!--revision 项目版本号-->
-        <revision>1.0.0-SNAPSHOT</revision>
         <!--spring-boot-->
         <spring-boot.version>2.7.18</spring-boot.version>
         <!--lombok-->
@@ -160,16 +158,6 @@
     <!--build-->
     <build>
         <plugins>
-            <!--versions-maven-plugin-->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>versions-maven-plugin</artifactId>
-                <version>${versions-maven-plugin.version}</version>
-                <configuration>
-                    <generateBackupPoms>true</generateBackupPoms>
-                    <newVersion>${revision}</newVersion>
-                </configuration>
-            </plugin>
             <!--duplicate-finder-maven-plugin-->
             <plugin>
                 <groupId>org.basepom.maven</groupId>
