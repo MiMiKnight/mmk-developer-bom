@@ -208,7 +208,7 @@
                                 <!--限制编译JDK的品牌-->
                                 <requireJavaVendor>
                                     <includes>
-                                        <include>Oracle Corporation</include>
+                                        <include>${jdk.vendor.oracle}</include>
                                     </includes>
                                 </requireJavaVendor>
                                 <!--限制编译Maven版本-->
